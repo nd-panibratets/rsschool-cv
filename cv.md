@@ -12,7 +12,7 @@
 * visualization
 # My hobbies
 * cycling
-* travel
+* traveling
 # Languages
 * **Ukrainian** - native speaker
 * **Russian** - native speaker
