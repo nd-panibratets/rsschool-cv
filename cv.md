@@ -1,7 +1,7 @@
 # Nikolay Panibratets
 # My Contact Info:
 * **Phone:** +38-096-966-89-06
-* **E-mail:** nd-panibratets@gmail.com
+* **E-mail:** nd.panibratets@gmail.com
 * **GitHub:** nd-panibratets
 * **Instagram** nikolay_panibratets
 # Education
