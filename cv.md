@@ -33,7 +33,6 @@ With a goal-oriented mindset and a commitment to delivering high-quality code, I
 * Experience with SolidWorks: Practical knowledge of this mechanical design automation software
 * Familiarity with Git and Visual Studio Code, GitHub
 * Practical knowledge and experience in a manufacturing engineering environment in sphere the manufacturing industry
-* Experience in creating visually appealing logos and clips Adobe After Effects, Adobe Premier Pro
 
 ## <u>Education</u>
 
