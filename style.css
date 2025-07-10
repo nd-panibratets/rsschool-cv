@@ -68,13 +68,6 @@ li.nav{
     list-style: none;
 }
 
-
-li::before{
-    font-family: 'Poppins';
-    content: ' < ';
-    color: #f3e413;
-}
-
 a{
     text-decoration: none;
     color: rgb(235, 212, 212);
