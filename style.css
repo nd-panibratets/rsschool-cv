@@ -41,7 +41,7 @@ p{
     margin: 0 auto; 
 }
 
-.nav{
+.nav-items{
     display: flex;
     justify-content: space-between;
     background: linear-gradient(135deg, #2e003e, #8e44ad);
