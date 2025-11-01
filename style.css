@@ -1,0 +1,251 @@
+h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+}   
+
+h1::after{
+    content: ' Nikolay';
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    color: azure;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+p{   
+    font-family: 'Inter' ;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2;
+    color: rgb(42, 44, 44);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background: linear-gradient(120deg, #1f1c2c, #928dab);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #2e003e, #8e44ad);
+    padding: 20px;
+}
+
+ol{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 1.6;
+    list-style: none;
+}
+
+li{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 1.6;
+    list-style: none;
+}
+
+li.nav{
+    list-style: none;
+}
+
+
+li::before{
+    font-family: 'Poppins';
+    content: ' < ';
+    color: #f3e413;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(235, 212, 212);
+}
+
+.photo-wrapper {
+    margin: 100px;
+    background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    padding: 10px;            /* Толщина градиентной рамки */
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.photo-border {
+    background-color: white;  /* Или фон страницы */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.photo {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.greetings{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.about{
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    padding: 60px 20px;
+}
+
+.about::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #5bc6cc, #4facfe);
+
+    z-index: -1;
+}
+
+.soft-skills {
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    padding: 60px 20px;
+}
+
+.soft-skills::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: radial-gradient(circle at top left, rgba(255,255,255,0.4), transparent 70%),
+                    radial-gradient(circle at bottom right, rgba(255,255,255,0.3), transparent 70%);
+    z-index: -1;
+}
+
+.technical-skills{
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    padding: 60px 20px;
+}
+
+.technical-skills::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: radial-gradient(circle at top left, rgba(255,255,255,0.4), transparent 70%),
+                radial-gradient(circle at bottom right, rgba(255,255,255,0.3), transparent 70%);
+                
+    z-index: -1;
+}
+
+.my-education{
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    padding: 60px 20px;
+}
+
+.my-education::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: radial-gradient(circle at top left, rgba(255,255,255,0.4), transparent 70%),
+                radial-gradient(circle at bottom right, rgba(255,255,255,0.3), transparent 70%);
+    z-index: -1;
+}
+
+
+.my-languages{    
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    padding: 60px 20px;
+}
+
+.my-languages::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: radial-gradient(circle at top left, rgba(255,255,255,0.4), transparent 70%),
+                radial-gradient(circle at bottom right, rgba(255,255,255,0.3), transparent 70%);
+    z-index: -1;
+}
+
+.my-contacts{
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    padding: 60px 20px;
+}
+
+.my-contacts::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: radial-gradient(circle at top left, rgba(255,255,255,0.4), transparent 70%),
+                radial-gradient(circle at bottom right, rgba(255,255,255,0.3), transparent 70%);
+    z-index: -1;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+
+
+footer {   
+    background: linear-gradient(135deg, #1f0036, #6a0dad);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
