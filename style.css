@@ -242,3 +242,9 @@ footer {
     padding: 30px;
     text-align: center;
 }
+
+@media (max-width: 768px){
+  .nav-items{
+    display: none;
+  }
+}
